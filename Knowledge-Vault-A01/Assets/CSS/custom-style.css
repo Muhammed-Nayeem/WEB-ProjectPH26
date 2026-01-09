@@ -303,3 +303,58 @@ body {
   color: #333;
   text-transform: none;
 }
+
+.earlyAccess {
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.earlyAccess__content {
+  background-color: #f8f8f8;
+  padding: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.earlyAccess__content h2 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.earlyAccess__content p {
+  font-size: 16px;
+  color: #929292;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.3;
+}
+.earlyAccess__content button {
+  border: 0;
+  outline: none;
+  background-color: #30B868;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 16px 0;
+  transition: .5s ease;
+}
+.earlyAccess__content button:hover {
+  background-color: #0c9e49;
+}
+.earlyAccess__content button span {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #ffffff;
+}
+.earlyAccess__content button img {
+  width: 20px;
+  height: 20px;
+}
