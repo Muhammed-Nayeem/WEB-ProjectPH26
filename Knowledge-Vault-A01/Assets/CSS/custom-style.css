@@ -25,6 +25,7 @@ body {
   margin: 0 auto;
 }
 
+/*======== Header =========*/
 .header {
   background-color: #ffffff;
   padding: 16px 0;
@@ -76,7 +77,7 @@ body {
   border: 1px solid #30B868;
 }
 
-
+/*======= Hero =======*/
 .hero {
   background: linear-gradient(#0000005b, #0000005b), url("../Images/hero-bg.png");
   min-height: 95vh;
@@ -191,6 +192,7 @@ body {
   color: #30B868;
 }
 
+/*======== Notes =========*/
 .notes {
   padding-top: 40px;
   padding-bottom: 60px;
@@ -245,6 +247,7 @@ body {
   color: #929292;
 }
 
+/*======== Brain ========*/
 .brain {
   background-color: #ffffff;
   padding-top: 80px;
@@ -304,10 +307,11 @@ body {
   text-transform: none;
 }
 
+/*======= Early Access ========*/
 .earlyAccess {
   background-color: #ffffff;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .earlyAccess__content {
   background-color: #f8f8f8;
@@ -357,4 +361,52 @@ body {
 .earlyAccess__content button img {
   width: 20px;
   height: 20px;
+}
+
+/*====== Footer =======*/
+.footer {
+  background-color: #001931;
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.footer__top .footer__top-logo img {
+  height: 40px;
+}
+.footer__top-social {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer__top-social p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer__top-social ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+.footer__top-social ul li a img {
+  width: 20px;
+  height: 20px;
+}
+.footer__copyright {
+  border-top: 2px solid #15233d;
+}
+.footer__copyright p {
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 20px;
+  color: #f8f8f8;
+  font-size: 16px;
 }
