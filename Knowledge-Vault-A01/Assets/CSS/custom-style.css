@@ -204,6 +204,7 @@ body {
   font-weight: 700;
   color: #333;
   margin-bottom: 5px;
+  text-transform: capitalize;
 }
 .notes__title p {
   font-size: 16px;
@@ -236,9 +237,69 @@ body {
   color: #333;
   text-align: center;
   padding: 8px 0;
+  text-transform: capitalize;
 }
 .notes__single-box p {
   font-size: 14px;
   text-align: center;
   color: #929292;
+}
+
+.brain {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.brain__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.brain__wrapper .brain__img {
+  flex-basis: 45%;
+}
+.brain__wrapper .brain__img img {
+  width: 100%;
+}
+.brain__wrapper .brain__title {
+  flex-basis: 50%;
+}
+.brain__title span {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #30B868;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.brain__title h2 {
+  font-size: 48px;
+  color: #333;
+  text-transform: capitalize;
+}
+.brain__title p {
+  margin: 16px 0;
+  font-size: 16px;
+  color: #929292;
+}
+.brain__title ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.brain__title ul li {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.brain__title ul li img {
+  width: 20px;
+  height: 20px;
+}
+.brain__title ul li span {
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+  text-transform: none;
 }
